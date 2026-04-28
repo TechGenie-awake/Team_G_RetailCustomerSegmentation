@@ -4,7 +4,7 @@
 
 | Item | Link | Notes |
 |---|---|---|
-| Tableau Public Dashboard | _Paste URL after publishing_ | **Main submission link** |
+| Tableau Public Dashboard | https://public.tableau.com/shared/SYPQX3FNP?:display_count=n&:origin=viz_share_link | **Main submission link** |
 | Workbook / Story Link | _Paste URL if applicable_ | Optional |
 | Demo Recording | _Paste URL if applicable_ | Optional |
 

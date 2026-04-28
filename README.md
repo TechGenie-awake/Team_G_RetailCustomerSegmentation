@@ -121,7 +121,7 @@ Document KPI logic clearly in `notebooks/04_statistical_analysis.ipynb` and `not
 
 | Item | Details |
 |---|---|
-| **Dashboard URL** | _Paste Tableau Public link here once published by M4_ |
+| **Dashboard URL** | https://public.tableau.com/shared/SYPQX3FNP?:display_count=n&:origin=viz_share_link |
 | **Executive View** | KPI banner (Total Revenue £17.1M, 5,861 customers, 41 countries, 36,639 orders) + segment revenue bar chart + segment size-vs-revenue bubble chart |
 | **Operational View** | RFM scatter plot (recency × monetary, sized by frequency, coloured by segment) + segment comparison heat map |
 | **Main Filters** | Segment multi-select · country · year selector · revenue threshold slider |
