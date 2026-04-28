@@ -39,8 +39,8 @@ If you are working in Google Colab:
 |---|---|
 | **Project Title** | Customer Retention Strategy via RFM Segmentation — Online Retail II |
 | **Sector** | Retail / E-Commerce |
-| **Team ID** | _To be filled by team_ |
-| **Section** | _To be filled by team_ |
+| **Team ID** | G |
+| **Section** | Team |
 | **Faculty Mentor** | _To be filled by team_ |
 | **Institute** | Newton School of Technology |
 | **Submission Date** | April 28, 2026 |
@@ -121,10 +121,10 @@ Document KPI logic clearly in `notebooks/04_statistical_analysis.ipynb` and `not
 
 | Item | Details |
 |---|---|
-| **Dashboard URL** | _Paste Tableau Public link here_ |
-| **Executive View** | _Describe the high-level KPI summary view_ |
-| **Operational View** | _Describe the detailed drill-down view_ |
-| **Main Filters** | _List the interactive filters used_ |
+| **Dashboard URL** | _Paste Tableau Public link here once published by M4_ |
+| **Executive View** | KPI banner (Total Revenue £17.1M, 5,861 customers, 41 countries, 36,639 orders) + segment revenue bar chart + segment size-vs-revenue bubble chart |
+| **Operational View** | RFM scatter plot (recency × monetary, sized by frequency, coloured by segment) + segment comparison heat map |
+| **Main Filters** | Segment multi-select · country · year selector · revenue threshold slider |
 
 Store dashboard screenshots in [`tableau/screenshots/`](tableau/screenshots/) and document the public links in [`tableau/dashboard_links.md`](tableau/dashboard_links.md).
 
@@ -132,28 +132,30 @@ Store dashboard screenshots in [`tableau/screenshots/`](tableau/screenshots/) an
 
 ## Key Insights
 
-_List 8-12 major findings from the analysis, written in decision language. Each insight should tell the reader what to think or act upon, not merely describe a chart._
-
-1. _Insight 1_
-2. _Insight 2_
-3. _Insight 3_
-4. _Insight 4_
-5. _Insight 5_
-6. _Insight 6_
-7. _Insight 7_
-8. _Insight 8_
+1. **Champions are 25.2% of customers but generate 69.2% (£11.8M) of revenue** — protecting this segment from churn is the single highest-leverage retention action; even a 5% Champion-loss rate equals £590k in annual revenue at risk.
+2. **The At Risk segment is the largest by count (26.1%, 1,530 customers) and holds £1.93M of recoverable revenue** — these customers were once active (avg historical spend £1,261) but haven't purchased in ~400 days; they are the most actionable win-back target.
+3. **The bottom 37% of customers (Lost + Loyal Customers + Potential Loyalists) generate only 5.6% of revenue** — treating them with the same retention spend as Champions is economically unjustified.
+4. **International customers earn 4–6× more revenue per customer than UK customers** — Netherlands (£2,545 AOV), Australia (£1,885), and Eire (£1,091) outperform the UK's £428 AOV; the brand commands a premium abroad.
+5. **The 90-day mark is the inflection point for churn** — Champions average 19 days recency, Loyal Customers 68 days, At Risk jumps to 401 days; customers crossing 90 days rarely recover without intervention.
+6. **K-Means clustering validates the rule-based RFM segmentation with >80% overlap** — the six segments represent statistically separable customer groups, giving the marketing team a defensible foundation for differentiated campaigns.
+7. **Lost segment customers (788, avg £276) cost more to reactivate than they return** — these should be removed from active campaign budget and pursued only via low-cost organic channels.
+8. **Big Spenders (683 customers, avg £3,471) average only 6.6 orders** — they have substantial upsell headroom; lifting them to Champion-level frequency would add ~£1.9M annually if even half convert.
+9. **Loyal Customers (10.5% of base) generate only 2.5% of revenue** — they are frequent but low-spend; a clear basket-size and AOV upsell opportunity.
+10. **The dataset captures two complete holiday seasons (Q4 2010 and Q4 2011), each materially elevated above baseline** — inventory and marketing pacing should plan for a 30–50% Q4 revenue lift.
 
 ---
 
 ## Recommendations
 
-_Provide 3-5 specific, actionable business recommendations, each linked directly to an insight above._
-
 | # | Insight | Recommendation | Expected Impact |
 |---|---|---|---|
-| 1 | _Which insight does this address?_ | _What should the stakeholder do?_ | _What measurable impact do you expect?_ |
-| 2 | _Which insight does this address?_ | _What should the stakeholder do?_ | _What measurable impact do you expect?_ |
-| 3 | _Which insight does this address?_ | _What should the stakeholder do?_ | _What measurable impact do you expect?_ |
+| 1 | Insights 1, 5 | **Launch a Champion Protection Program** — premium loyalty tier, dedicated CSM, alert at 30 days inactive | Defend £11.8M Champion revenue. Cutting Champion churn from 10% to 5% saves ~£590k. **Net +£485k–£530k Year 1.** |
+| 2 | Insights 2, 5 | **At Risk win-back campaign** — personalised reactivation email + 15% discount sequence to all 1,530 At Risk customers | At 15% recovery rate: 230 customers × £1,261 avg = **£290k recovered.** Net +£260k–£275k. |
+| 3 | Insight 3 | **Reallocate budget away from Lost & low-value segments** — remove Lost (788) and most Potential Loyalists from active retention | Free up ~£20–30k/yr at near-zero opportunity cost. |
+| 4 | Insight 4 | **International premium expansion** — targeted ads + currency-localised offers in Netherlands, Australia, Germany, France | 50 new international customers × ~£1,800 AOV = **+£90k.** Net +£50k–£70k. |
+| 5 | Insights 8, 9 | **Second-purchase + Big Spender upsell** — 60-day post-purchase nudge; push Big Spender frequency up | Convert 30% of Potential Loyalists (+£92k) + lift Big Spender frequency by 1 order (+£480k). **Net +£530k–£550k.** |
+
+**Total projected Year-1 net impact: +£1.35M–£1.45M** at marketing spend of £90k–£185k (under 1% of revenue). See [`reports/project_report.md`](reports/project_report.md) sections 12–13 for full impact estimation.
 
 ---
 
