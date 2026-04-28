@@ -246,42 +246,42 @@ The project follows a structured 7-step workflow:
 
 **GitHub Repository**
 
-- [ ] Public repository created with the correct naming convention (`SectionName_TeamID_ProjectName`)
-- [ ] All notebooks committed in `.ipynb` format
-- [ ] `data/raw/` contains the original, unedited dataset
-- [ ] `data/processed/` contains the cleaned pipeline output
-- [ ] `tableau/screenshots/` contains dashboard screenshots
-- [ ] `tableau/dashboard_links.md` contains the Tableau Public URL
-- [ ] `docs/data_dictionary.md` is complete
-- [ ] `README.md` explains the project, dataset, and team
-- [ ] All members have visible commits and pull requests
+- [x] Public repository created with the correct naming convention (`Team_G_RetailCustomerSegmentation`)
+- [x] All notebooks committed in `.ipynb` format
+- [x] `data/raw/` contains the original, unedited dataset
+- [x] `data/processed/` contains the cleaned pipeline output
+- [x] `tableau/screenshots/` contains dashboard screenshots
+- [x] `tableau/dashboard_links.md` contains the Tableau Public URL
+- [x] `docs/data_dictionary.md` is complete
+- [x] `README.md` explains the project, dataset, and team
+- [x] All members have visible commits and pull requests
 
 **Tableau Dashboard**
 
-- [ ] Published on Tableau Public and accessible via public URL
-- [ ] At least one interactive filter included
-- [ ] Dashboard directly addresses the business problem
+- [x] Published on Tableau Public and accessible via public URL
+- [x] At least one interactive filter included
+- [x] Dashboard directly addresses the business problem
 
 **Project Report**
 
-- [ ] Final report exported as PDF into `reports/`
-- [ ] Cover page, executive summary, sector context, problem statement
-- [ ] Data description, cleaning methodology, KPI framework
-- [ ] EDA with written insights, statistical analysis results
-- [ ] Dashboard screenshots and explanation
-- [ ] 8-12 key insights in decision language
-- [ ] 3-5 actionable recommendations with impact estimates
-- [ ] Contribution matrix matches GitHub history
+- [x] Final report exported as PDF into `reports/`
+- [x] Cover page, executive summary, sector context, problem statement
+- [x] Data description, cleaning methodology, KPI framework
+- [x] EDA with written insights, statistical analysis results
+- [x] Dashboard screenshots and explanation
+- [x] 8-12 key insights in decision language
+- [x] 3-5 actionable recommendations with impact estimates
+- [x] Contribution matrix matches GitHub history
 
 **Presentation Deck**
 
-- [ ] Final presentation exported as PDF into `reports/`
-- [ ] Title slide through recommendations, impact, limitations, and next steps
+- [x] Final presentation exported as PDF into `reports/`
+- [x] Title slide through recommendations, impact, limitations, and next steps
 
 **Individual Assets**
 
-- [ ] DVA-oriented resume updated to include this capstone
-- [ ] Portfolio link or project case study added
+- [ ] DVA-oriented resume updated to include this capstone (per-member task)
+- [ ] Portfolio link or project case study added (per-member task)
 
 ---
 
@@ -303,7 +303,7 @@ _Declaration: We confirm that the above contribution details are accurate and ve
 
 **Team Lead Name:** Gayatri Jaiswal
 
-**Date:** _______________
+**Date:** April 28, 2026
 
 ---
 
